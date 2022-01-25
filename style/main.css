@@ -27,6 +27,7 @@ header .logo {
   color: var(--primary-color);
   font-family: 'Arial Black', Times;
   font-size: 2.5rem;
+  font-weight: 900;
 }
 
 header nav a {
