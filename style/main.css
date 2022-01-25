@@ -1,5 +1,5 @@
 :root {
-  --background: #000;
+  --background: #141414;
   --primary-color: #E50914;
 
 }
@@ -12,26 +12,86 @@
 
 body {
   background: var(--background);
-  font-family: 'Sans', times, serif;
+  font-family: 'Times New Roman', Times, serif;
+  color: #fff;
 }
 
-header {
-  padding: 1.3rem 0 0;
-} 
-
-.container {
-  padding: 0.5rem 0 0;
-  margin: 0 1.4rem;
+header .container {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  
 }
 
-.logo {
+header .logo {
   color: var(--primary-color);
   font-family: 'Arial Black', Times;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 
+header nav a {
+  text-decoration: none;
+  color: #aaa;
+  margin-right: .75rem;
+}
+
+header nav a:hover {
+ color: #fff;
+}
+
+/* main-movie */
+.main-movie {
+  font-size: 1rem;
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)100%),
+   url('/images/uJW6OzO8Z8SgfDD2q8FcMCT7gSC.jpg');
+
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main-movie .description {
+  margin-top: 10px;
+  margin-bottom: 2.5rem;
+}
+
+.main-movie .title {
+  margin-top: 15%;
+  font-size: 3.75rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.button {
+  background-color: rgba(0, 0, 0, .5);
+  border: none;
+  border-radius: .2rem;
+  color: #fff;
+
+  padding: 15px 30px;
+  margin-right: 1rem;
+  font-size: .75rem;
+
+  cursor: pointer;
+  transition: .3s ease all;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #141414;
+}
+
+.button i {
+  margin-right: 5px;
+}
+
+.container {
+  margin-left: 20px;
+}
+
+.main-movie .container {
+  width: 60%;
+}
