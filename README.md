@@ -28,7 +28,7 @@ dispositivo..
 
 <h2>Projeto</h2>
 
-<p>Você pode ver o projeto através <a href="hhttps://willflix.netlify.app/">desse link</a></p>
+<p>Você pode ver o projeto através <a href="https://willflix.netlify.app/" target="_blank">desse link</a></p>
 
 <br>
 
