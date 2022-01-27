@@ -31,3 +31,8 @@ dispositivo..
 <p>Você pode ver o projeto através <a href="https://marvelflix-william-programador.netlify.app/">desse link</a></p>
 
 <br>
+
+<h2>Licença</h2>
+
+<p>Esse projeto está sob licença MIT. Veja o arquivo <a href="https://github.com/William-AViana/clone-netflix/blob/main/LICENSE" target="_blank">LICENCE</a> para mais 
+detalhes.</p>
